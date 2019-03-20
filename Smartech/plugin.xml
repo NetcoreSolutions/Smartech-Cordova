@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="smartech-cordova" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>Smartech</name><js-module name="Smartech" src="www/Smartech.js">
+    <clobbers target="Smartech" />
+    </js-module>
+    <platform name="android">
+      <config-file parent="/*" target="res/xml/config.xml">
+	<feature name="Smartech"><param name="android-package" value="com.netcore.Smartech" />
+	</feature>
+	</config-file><config-file parent="/*" target="AndroidManifest.xml" />
+	<source-file src="src/android/Smartech.java" target-dir="src/com/netcore/Smartech" />
+	</platform>
+</plugin>

@@ -1,0 +1,20 @@
+<ion-view view-title="Notifications">
+    <ion-content>
+        <ion-list ng-init = "getNotifications(10)">
+            <ion-item class="animate-repeat" ng-repeat="notification in notifications">
+                <div class="card card-wraper">
+                    <div class="item" ng-if="notification.title == 'Empty'">
+                        <h2>title: {{notification.title}}</h2>
+                    </div>
+                    <div class="item" ng-else>
+                        <h2>title: {{notification.title}}</h2>
+                        <p>message: {{notification.message}}</p>
+                        <p>Status: {{notification.status}} , deliver time: {{notification.deliver_time}}</p>
+                        <p>Custom Payload: {{notification.customPayload}}</p>
+                    </div>
+                </div>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>
+

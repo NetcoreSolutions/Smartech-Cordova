@@ -1,0 +1,43 @@
+{
+  "name": "cordova-plugin-smartech",
+  "version": "1.0.0",
+  "description": "Smartech Plugin for Cordova/PhoneGap/Ionic",
+  "cordova": {
+    "id": "cordova-plugin-smartech",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git issue url"
+  },
+  "keywords": [
+    "netcore",
+    "smartech",
+    "notification",
+    "push",
+    "push-notification",
+    "pushamp",
+    "analytics",
+    "segmentation",
+    "in-app",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Netcore Solutions",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "readme url",
+  "dependencies": {}
+}

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "963328728031",
+    "firebase_url": "https://hybrid-apps-67b8c.firebaseio.com",
+    "project_id": "hybrid-apps-67b8c",
+    "storage_bucket": "hybrid-apps-67b8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963328728031:android:d093c9500f40b71a",
+        "android_client_info": {
+          "package_name": "com.smartech.ionicdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963328728031-t19h9elcq8khh89befpb3ame47g4hlst.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVQsWnKZAUbQOJpdQi6wY744JhBzLaFc4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

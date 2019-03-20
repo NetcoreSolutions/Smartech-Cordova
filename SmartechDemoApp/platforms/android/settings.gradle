@@ -1,0 +1,4 @@
+// GENERATED FILE - DO NOT EDIT
+include ":", ':smartech-fcm-1.2.0'
+include ":CordovaLib"
+include ":app"

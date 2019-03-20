@@ -1,0 +1,21 @@
+<ion-view view-title="Other Functions" name="other-view">
+    <ion-content class="padding">
+        <div class="list list-inset">
+            <label class="item item-input">
+                <input type="text" placeholder="Enter Latitude" ng-model="location.latitude">
+            </label>
+            <label class="item item-input">
+                <input type="text" placeholder="Enter Longitude" ng-model="location.longitude">
+            </label>
+        </div>
+        <button class="button button-block button-calm" ng-click="setUserLocation()">Set Location</button>
+
+        <div class="list list-inset">
+            <label class="item item-input">
+                <input type="text" placeholder="Enter Token" ng-model="ids.token">
+            </label>
+        </div>
+        <button class="button button-block button-calm" ng-click="setPushToken()">Set Token</button>
+        <button class="button button-block button-calm" ng-click="getPushToken()">get Token</button>
+    </ion-content>
+</ion-view>
