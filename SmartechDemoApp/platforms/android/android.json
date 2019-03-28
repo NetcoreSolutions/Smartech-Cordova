@@ -26,7 +26,7 @@
             },
             {
               "xml": "<feature name=\"Smartech\"><param name=\"android-package\" value=\"com.netcore.Smartech\" /></feature>",
-              "count": 1
+              "count": 2
             },
             {
               "xml": "<feature name=\"IonicDeeplinkPlugin\"><param name=\"android-package\" value=\"io.ionic.links.IonicDeeplink\" /><param name=\"onload\" value=\"true\" /></feature>",
@@ -136,6 +136,9 @@
     },
     "cordova-plugin-x-toast": {
       "PACKAGE_NAME": "com.smartech.ionicdemo"
+    },
+    "smartech-cordova": {
+      "PACKAGE_NAME": "com.smartech.ionicdemo"
     }
   },
   "dependent_plugins": {},
@@ -181,14 +184,6 @@
       ]
     },
     {
-      "id": "com.netcore.Smartech",
-      "file": "plugins/com.netcore/www/Smartech.js",
-      "pluginId": "com.netcore",
-      "clobbers": [
-        "Smartech"
-      ]
-    },
-    {
       "id": "ionic-plugin-deeplinks.deeplink",
       "file": "plugins/ionic-plugin-deeplinks/www/deeplink.js",
       "pluginId": "ionic-plugin-deeplinks",
@@ -220,6 +215,14 @@
       "clobbers": [
         "window.plugins.toast"
       ]
+    },
+    {
+      "id": "smartech-cordova.Smartech",
+      "file": "plugins/smartech-cordova/www/Smartech.js",
+      "pluginId": "smartech-cordova",
+      "clobbers": [
+        "Smartech"
+      ]
     }
   ],
   "plugin_metadata": {
@@ -232,6 +235,7 @@
     "com.netcore": "1.0.0",
     "ionic-plugin-deeplinks": "1.0.17",
     "cordova-plugin-dialogs": "2.0.1",
-    "cordova-plugin-x-toast": "2.7.2"
+    "cordova-plugin-x-toast": "2.7.2",
+    "smartech-cordova": "1.0.0"
   }
 }

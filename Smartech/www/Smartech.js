@@ -2,6 +2,9 @@ var exec = require('cordova/exec');
 
     var PLUGIN_NAME = 'Smartech';
 
+    exports.addObserverForDeeplinkAndCustomPayload = function () {
+        exec(null, null, PLUGIN_NAME, 'addObserverForDeeplinkAndCustomPayload', []);
+    };
     exports.setIdentity = function (identity, success, error) {
         exec(success, error, PLUGIN_NAME, 'setIdentity', [identity]);
     };

@@ -64,9 +64,7 @@
     <preference name="SplashShowOnlyFirstTime" value="false" />
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
-    <feature name="Smartech">
-        <param name="android-package" value="com.netcore.Smartech" />
-    </feature>
+
     <feature name="IonicDeeplinkPlugin">
         <param name="android-package" value="io.ionic.links.IonicDeeplink" />
         <param name="onload" value="true" />
@@ -76,5 +74,8 @@
     </feature>
     <feature name="Toast">
         <param name="android-package" value="nl.xservices.plugins.Toast" />
+    </feature>
+    <feature name="Smartech">
+        <param name="android-package" value="com.netcore.Smartech" />
     </feature>
 </widget>

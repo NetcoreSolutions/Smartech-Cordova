@@ -41,14 +41,6 @@ module.exports = [
     ]
   },
   {
-    "id": "com.netcore.Smartech",
-    "file": "plugins/com.netcore/www/Smartech.js",
-    "pluginId": "com.netcore",
-    "clobbers": [
-      "Smartech"
-    ]
-  },
-  {
     "id": "ionic-plugin-deeplinks.deeplink",
     "file": "plugins/ionic-plugin-deeplinks/www/deeplink.js",
     "pluginId": "ionic-plugin-deeplinks",
@@ -80,6 +72,14 @@ module.exports = [
     "clobbers": [
       "window.plugins.toast"
     ]
+  },
+  {
+    "id": "smartech-cordova.Smartech",
+    "file": "plugins/smartech-cordova/www/Smartech.js",
+    "pluginId": "smartech-cordova",
+    "clobbers": [
+      "Smartech"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -94,7 +94,8 @@ module.exports.metadata =
   "com.netcore": "1.0.0",
   "ionic-plugin-deeplinks": "1.0.17",
   "cordova-plugin-dialogs": "2.0.1",
-  "cordova-plugin-x-toast": "2.7.2"
+  "cordova-plugin-x-toast": "2.7.2",
+  "smartech-cordova": "1.0.0"
 };
 // BOTTOM OF METADATA
 });

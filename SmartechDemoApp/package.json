@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "@ionic/pro": "2.0.4",
-    "cordova-android": "7.1.4",
+    "cordova-android": "^7.1.4",
+    "cordova-ios": "^4.5.5",
     "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-dialogs": "^2.0.1",
     "cordova-plugin-ionic-keyboard": "^2.1.3",
@@ -22,7 +23,8 @@
     "cordova-plugin-x-toast": "git+https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin.git",
     "es6-promise": "^4.2.6",
     "ionic-native": "^2.9.0",
-    "ionic-plugin-deeplinks": "1.0.17"
+    "ionic-plugin-deeplinks": "^1.0.17",
+    "smartech-cordova": "^1.0.1"
   },
   "cordova": {
     "plugins": {
@@ -53,10 +55,12 @@
         "DEEPLINK_5_HOST": " "
       },
       "cordova-plugin-dialogs": {},
-      "cordova-plugin-x-toast": {}
+      "cordova-plugin-x-toast": {},
+      "smartech-cordova": {}
     },
     "platforms": [
-      "android"
+      "android",
+      "ios"
     ]
   }
 }

@@ -10,4 +10,15 @@
 	</config-file><config-file parent="/*" target="AndroidManifest.xml" />
 	<source-file src="src/android/Smartech.java" target-dir="src/com/netcore/Smartech" />
 	</platform>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="Smartech">
+                <param name="ios-package" value="Smartech" />
+            </feature>
+        </config-file>
+        <source-file src="src/ios/Smartech.m"/>
+        <header-file src="src/ios/Smartech.h"/>
+        <framework src="src/ios/NetCorePush.framework" embed="true" framework="true" />
+        <hook type="after_plugin_add" src="scripts/iosAfterPluginAdd.js" />
+    </platform>
 </plugin>

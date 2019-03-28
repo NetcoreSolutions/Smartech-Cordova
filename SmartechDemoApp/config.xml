@@ -103,4 +103,6 @@
     </plugin>
     <plugin name="cordova-plugin-dialogs" spec="^2.0.1" />
     <plugin name="cordova-plugin-x-toast" spec="https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin.git" />
+    <plugin name="smartech-cordova" spec="^1.0.1" />
+    <engine name="ios" spec="~4.5.5" />
 </widget>

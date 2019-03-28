@@ -1,0 +1,29 @@
+<ion-view view-title="Home" name="home-view">
+    <ion-content class="padding">
+        <div class="row">
+            <div class="col"><button class="button button-block button-calm" ng-click="track('Add To Cart')" ng-init="events.eventName='Add To Cart'" ng-model="events.eventName">Add To Cart</button></div>
+            <div class="col"><button class="button button-block button-calm" ng-click="track('Remove from Cart')" ng-init="events.eventName='Remove from Cart'" ng-model="events.eventName">RemoveFrom Cart</button></div>
+        </div>
+        <div class="row">
+            <div class="col"><button class="button button-block button-calm" ng-click="track('Checkout')" ng-init="events.eventName='Checkout'" ng-model="events.eventName">Checkout</button></div>
+            <div class="col"><button class="button button-block button-calm" ng-click="track('Cart Expired')" ng-init="events.eventName='Cart Expired'" ng-model="events.eventName">Cart Expired</button></div>
+        </div>
+        <div class="row">
+            <div class="col"><button class="button button-block button-calm" ng-click="track('Page Browse')" ng-init="events.eventName='Page Browse'" ng-model="events.eventName">Page Browse</button></div>
+            <div class="col"><button class="button button-block button-calm" ng-click="profileUpdate()">Profile Update</button></div>
+        </div>
+        <div class="row">
+            <div class="col"><button class="button button-block button-calm" ng-click="optOut(false)">Opt In</button></div>
+            <div class="col"><button class="button button-block button-calm" ng-click="optOut(true)">Opt Out</button></div>
+        </div>
+        <div class="row">
+            <div class="col"><button class="button button-block button-calm" ng-click="customData()">Custom Data</button></div>
+            <div class="col"><button class="button button-block button-calm" ng-click="otherFunctions()">Other Functions</button></div>
+        </div>
+        <div class="row">
+            <div class="col"><button class="button button-block button-calm" ng-click="getGUID()">Get GUID</button></div>
+            <div class="col"><button class="button button-block button-calm" ng-click="goNotifications()">Get Notifications</button></div>
+        </div>
+        <button class="button button-block button-calm" ng-click="logout()">Logout</button>
+    </ion-content>
+</ion-view>

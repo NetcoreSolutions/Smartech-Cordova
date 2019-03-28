@@ -1,0 +1,39 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"Smartech\"><param name=\"ios-package\" value=\"Smartech\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "smartech-cordova": {
+      "PACKAGE_NAME": "com.smartech.ionicdemo"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "smartech-cordova.Smartech",
+      "file": "plugins/smartech-cordova/www/Smartech.js",
+      "pluginId": "smartech-cordova",
+      "clobbers": [
+        "Smartech"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "smartech-cordova": "1.0.0"
+  }
+}

@@ -41,14 +41,6 @@ module.exports = [
     ]
   },
   {
-    "id": "com.netcore.Smartech",
-    "file": "plugins/com.netcore/www/Smartech.js",
-    "pluginId": "com.netcore",
-    "clobbers": [
-      "Smartech"
-    ]
-  },
-  {
     "id": "ionic-plugin-deeplinks.deeplink",
     "file": "plugins/ionic-plugin-deeplinks/www/deeplink.js",
     "pluginId": "ionic-plugin-deeplinks",
@@ -91,7 +83,6 @@ module.exports.metadata =
   "cordova-plugin-splashscreen": "5.0.2",
   "cordova-plugin-statusbar": "2.4.2",
   "cordova-plugin-whitelist": "1.3.3",
-  "com.netcore": "1.0.0",
   "ionic-plugin-deeplinks": "1.0.17",
   "cordova-plugin-dialogs": "2.0.1",
   "cordova-plugin-x-toast": "2.7.2"

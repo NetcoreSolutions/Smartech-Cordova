@@ -1,6 +1,6 @@
 {
   "name": "smartech-cordova",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Smartech Plugin for Cordova/PhoneGap/Ionic",
   "cordova": {
     "id": "smartech-cordova",
@@ -30,5 +30,7 @@
   "author": "Netcore Solutions",
   "license": "MIT",
   "homepage": "https://github.com/NetcoreSolutions/Smartech-Cordova",
-  "dependencies": {}
+  "dependencies": {
+    "xcode": "^2.0.0"
+  }
 }
